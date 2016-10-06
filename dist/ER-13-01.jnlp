@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ER-13-01.jnlp">
+  <information>
+    <title>ER-13-01</title>
+    <vendor>alex030293</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ER-13-01.jar" size="240216" download="eager" />
+    <jar href="lib/jcalendar-1.4.jar" size="165052" download="eager" />
+    <jar href="lib/junit-4.10.jar" size="253160" download="eager" />
+  </resources>
+  <application-desc main-class="ER1301.joinMe.view.Main"  name="ER-13-01" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
