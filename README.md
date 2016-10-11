@@ -1,6 +1,8 @@
 # VVS2016
 [![Build Status](https://travis-ci.org/adrianleira/VVS2016.svg?branch=master)](https://travis-ci.org/adrianleira/VVS2016)
 
+[![Build Status](https://travis-ci.org/adrianleira/VVS2016.svg?branch=master)](https://travis-ci.org/adrianleira/VVS2016)
+
 Andrea Ardións Baña
 
 Adrián Leira Carro
