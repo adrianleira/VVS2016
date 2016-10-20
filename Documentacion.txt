@@ -1,0 +1,80 @@
+
+(a)PR-UN-001
+(b) No es individual. Primero se añaden los usuarios, pero luego con un getListaUsuariosGroup().size() se comprueban que efectivamente los ha añadido con éxito.
+(c) testAddUsuarioGrupoDifusion()
+(d) Este test comprueba que se añaden con éxito los usuarios a los grupos de difusión.
+(e) El valor de entrada es el usuario.
+(f) El valor de salida es un booleano que comprueba que hay el número de usuarios que dice ser.
+(g) Se inicializa grupo de difusión. También se crean usuarios.
+
+(a)PR-UN-002
+(b) No es individual. Primero añadimos usuarios, para luego eliminarlos y comprobar que está funcionando el método.
+(c) testRemoveUsuarioGrupoDifusion()
+(d) Este test comprueba que se eliminan con éxito los usuarios de los grupos de difusión.
+(e) El usuario que se quiere eliminar.
+(f) Lista sin ese usuario que hemos eliminado.
+(g) Se inicializa grupo de difusión y usuarios.
+
+(a)PR-UN-003
+(b) Individual. Se prueba a eliminar un grupo de un grupo de difusión.
+(c) testRemoveGrupoGrupoDifusion()
+(d) Este test verifica que se eliminan los grupos, de los propios grupos de difusión con éxito.
+(e) El grupo que se quiere eliminar.
+(f) Lista de grupos sin ese grupo.
+(g) Se iniciativa grupo de difusión.
+
+(a)PR-UN-004
+(b) Individual. Solo se comprueba que funciona el get de id de propietario.
+(c) testGetIdPropietario()
+(d) Se comprueba que devuelve el ID del propietario con éxito.
+(e) Nada.
+(f) El ID del propietario.
+(g) Se iniciativa grupo de difusión.
+
+(a)PR-UN-005
+(b) Se comprueba que el método get está bien implementado. Es individual también.
+(c) testGetIdGrupoDifusion()
+(d) Este test devuelve el ID del grupo con éxito.
+(e) Nada.
+(f) La salida es el ID que se corresponde.
+(g) Se iniciativa grupo de difusión-
+
+(a)PR-UN-006
+(b) No es individual. Se prueba con el método de addUsuarioGrupoDifusion() a añadir usuarios y luego se comprueba que la lista no está vacía.
+(c) testGetListaUsuariosGrupo()
+(d) Este test devuelve con éxito la lista de usuarios que hay actualmente en el grupo.
+(e) Las entradas son los usuarios que añadimos.
+(f) La salida es la lista con los usuarios.
+(g) Se iniciativa grupo de difusión y usuarios.
+
+(a)PR-UN-007
+(b) Individual. Simplemente la devuelve.
+(c) testGetListaGruposGrupo()
+(d) Verifica el estado de la lista de grupos, los grupos que hay dentro de cada grupo de difusión.
+(e) Nada.
+(f) Lista de usuarios que hay en el grupo.
+(g) Se iniciativa grupo de difusión.
+
+(a)PR-UN-008
+(b) No es individual. Primero hacemos un setInbox(), para luego comprobar con el getInbox() que se cumple el método.
+(c) testGetInbox() 
+(d) Este test verifica que si hay mensajes dentro del grupo de difusión.
+(e) Añado la lista de mensajes.
+(f) La salida devuelve si hay mensajes.
+(g) Se iniciativa grupo de difusión y mensaje.
+
+(a)PR-UN-009
+(b) Individual. Solo comprobamos si está vacío.
+(c) testSetInbox()
+(d) Se prueba que el método set para los mensajes de los grupos de difusión funciona.
+(e) La caja de los mensajes (bandeja de correo).
+(f) Los que hay o si está vacía. 
+(g) Se iniciativa grupo de difusión y mensaje.
+
+(a)PR-UN-010
+(b) Es individual, creamos un grupo de difusión nuevo y añadimos un mensaje con el método para ver si lo añade correctamente.
+(c) testAddMsg()
+(d) Este test comprueba que los mensajes se añaden a los grupos de difusión con éxito.
+(e) Mensaje.
+(f) Devuelve la inbox con ese mensaje.
+(g) Se iniciativa grupo de difusión y mensaje.
