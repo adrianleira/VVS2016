@@ -35,6 +35,7 @@ public class GrupoDifusionTest {
     
     /**
      * Test of addUsuarioGrupoDifusion method, of class GrupoDifusion.
+     * PR-UN-001
      */
     @Test
     public void testAddUsuarioGrupoDifusion() {
@@ -55,6 +56,7 @@ public class GrupoDifusionTest {
 
     /**
      * Test of removeUsuarioGrupoDifusion method, of class GrupoDifusion.
+     * PR-UN-002
      */
     
     
@@ -80,6 +82,7 @@ public class GrupoDifusionTest {
 
     /**
      * Test of removeGrupoGrupoDifusion method, of class GrupoDifusion.
+     * PR-UN-003
      */
     @Test
     public void testRemoveGrupoGrupoDifusion() {
@@ -100,6 +103,7 @@ public class GrupoDifusionTest {
 
     /**
      * Test of getIdPropietario method, of class GrupoDifusion.
+     * PR-UN-004
      */
     @Test
     public void testGetIdPropietario() {
@@ -116,6 +120,7 @@ public class GrupoDifusionTest {
 
     /**
      * Test of getIdGrupoDifusion method, of class GrupoDifusion.
+     * PR-UN-005
      */
     @Test
     public void testGetIdGrupoDifusion() {
@@ -131,6 +136,7 @@ public class GrupoDifusionTest {
 
     /**
      * Test of getListaUsuariosGrupo method, of class GrupoDifusion.
+     * PR-UN-006
      */
     @Test
     public void testGetListaUsuariosGrupo() {
@@ -150,6 +156,7 @@ public class GrupoDifusionTest {
 
     /**
      * Test of getListaGruposGrupo method, of class GrupoDifusion.
+     * PR-UN-007
      */
     @Test
     public void testGetListaGruposGrupo() {
@@ -161,6 +168,7 @@ public class GrupoDifusionTest {
 
     /**
      * Test of getInbox method, of class GrupoDifusion.
+     * PR-UN-008
      */
     @Test
     public void testGetInbox() {
@@ -180,6 +188,7 @@ public class GrupoDifusionTest {
 
     /**
      * Test of setInbox method, of class GrupoDifusion.
+     * PR-UN-009
      */
     @Test
     public void testSetInbox() {
@@ -194,6 +203,7 @@ public class GrupoDifusionTest {
 
     /**
      * Test of addMsg method, of class GrupoDifusion.
+     * PR-UN-010
      */
     @Test
     public void testAddMsg() {

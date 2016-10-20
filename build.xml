@@ -8,6 +8,14 @@
   <property name="build" location="build"/>
   <property name="test" location="test"/>
   <property name="build.test" location="build/test"/>
+  <property name="cobertura.dir" value="C:/javastuff/cobertura" />
+
+  <path id="cobertura.classpath">
+	    <fileset dir="${cobertura.dir}">
+	        <include name="cobertura.jar" />
+	        <include name="lib/**/*.jar" />
+	    </fileset>
+  </path>
 
   <path id="classpath.base">
     <pathelement location="${build}" />
