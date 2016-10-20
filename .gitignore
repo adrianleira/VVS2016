@@ -356,3 +356,4 @@ build/test/results/TEST-ER1301.joinMe.model.GrupoDifusionTest.xml
 dist/lib/VVS2016-20161011.jar
 build/test/ER1301/joinMe/model/ContestTest.class
 build/test/ER1301/joinMe/model/GrupoDifusionTest.class
+/target/

@@ -22,13 +22,13 @@ public class Contest {
     private ArrayList<Sentence> sentences;
     private String title;
     
-    private ArrayList <Contest> listaValoraciones = new ArrayList<>();
+    private ArrayList <Contest> listaValoraciones = new ArrayList<Contest>();
 
     public Contest(Calendar start, Calendar end, String title) {
         this.start = start;
         this.end = end;
-        this.participants = new ArrayList<>();
-        this.sentences = new ArrayList<>();
+        this.participants = new ArrayList<String>();
+        this.sentences = new ArrayList<Sentence>();
         this.title = title;
     }
 

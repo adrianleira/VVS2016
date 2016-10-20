@@ -14,11 +14,11 @@ public class GrupoDifusion {
     
     private String idGrupoDifusion = null;
     
-    private List<String> listaUsuariosGrupo = new ArrayList<>();
+    private List<String> listaUsuariosGrupo = new ArrayList<String>();
         
-    private List<GrupoDifusion> listaGruposGrupo = new ArrayList<>();
+    private List<GrupoDifusion> listaGruposGrupo = new ArrayList<GrupoDifusion>();
     
-    private List<Mensaje> inbox = new ArrayList<>();
+    private List<Mensaje> inbox = new ArrayList<Mensaje>();
     
     /* crear grupo difusion */
     public GrupoDifusion (String idGrupoDifusion, String idPropietario, List<String> listaUsuariosGrupo,
