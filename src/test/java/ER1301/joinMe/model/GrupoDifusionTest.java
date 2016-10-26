@@ -39,7 +39,6 @@ public class GrupoDifusionTest {
      */
     @Test
     public void testAddUsuarioGrupoDifusion() {
-        System.out.println("addUsuarioGrupoDifusion");
                     
         List<String> listaUsuariosGrupo = new ArrayList<>();
         listaUsuariosGrupo.add(u1); //añado 1
@@ -62,7 +61,6 @@ public class GrupoDifusionTest {
     
     @Test
     public void testRemoveUsuarioGrupoDifusion() {
-        System.out.println("removeUsuarioGrupoDifusion");
         
        // users.add(new Usuario("Adrian", "", "123456789A", "Adrian", "Leira") );
         
@@ -86,7 +84,6 @@ public class GrupoDifusionTest {
      */
     @Test
     public void testRemoveGrupoGrupoDifusion() {
-        System.out.println("removeGrupoGrupoDifusion");
         
         List <GrupoDifusion> listaGruposGrupo = new ArrayList<>();
    
@@ -107,7 +104,6 @@ public class GrupoDifusionTest {
      */
     @Test
     public void testGetIdPropietario() {
-        System.out.println("getIdPropietario");
 
         String expResult = "3";
         String result = gd3.getIdPropietario();
@@ -124,7 +120,6 @@ public class GrupoDifusionTest {
      */
     @Test
     public void testGetIdGrupoDifusion() {
-        System.out.println("getIdGrupoDifusion");
         
         String expResult = "1";
         String result = gd1.getIdGrupoDifusion();
@@ -140,7 +135,6 @@ public class GrupoDifusionTest {
      */
     @Test
     public void testGetListaUsuariosGrupo() {
-        System.out.println("getListaUsuariosGrupo");
         
         List<String> listaUsuariosGrupo = new ArrayList<>();
         
@@ -160,7 +154,6 @@ public class GrupoDifusionTest {
      */
     @Test
     public void testGetListaGruposGrupo() {
-        System.out.println("getListaGruposGrupo");
 
         assertEquals(gd1.getListaGruposGrupo(), null);
 
@@ -172,7 +165,6 @@ public class GrupoDifusionTest {
      */
     @Test
     public void testGetInbox() {
-        System.out.println("getInbox");
         
         List<Mensaje> inbox = new ArrayList<>();
    
@@ -192,7 +184,6 @@ public class GrupoDifusionTest {
      */
     @Test
     public void testSetInbox() {
-        System.out.println("setInbox");
         
         List<Mensaje> inbox = new ArrayList<>();
    
@@ -207,7 +198,6 @@ public class GrupoDifusionTest {
      */
     @Test
     public void testAddMsg() {
-        System.out.println("addMsg");
         
         List <GrupoDifusion> listaGruposGrupo = new ArrayList<>();
         

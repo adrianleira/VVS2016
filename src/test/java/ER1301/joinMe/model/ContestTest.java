@@ -48,6 +48,7 @@ public class ContestTest {
     
     /**
      * Test of getStart method, of class Contest.
+     * PR-UN-011
      */
     @Test
     public void testGetStart() {
@@ -60,6 +61,7 @@ public class ContestTest {
 
     /**
      * Test of setStart method, of class Contest.
+     * PR-UN-012
      */
     @Test
     public void testSetStart() {
@@ -73,6 +75,7 @@ public class ContestTest {
 
     /**
      * Test of getEnd method, of class Contest.
+     * PR-UN-013
      */
     @Test
     public void testGetEnd() {
@@ -85,6 +88,7 @@ public class ContestTest {
 
     /**
      * Test of setEnd method, of class Contest.
+     * PR-UN-014
      */
     @Test
     public void testSetEnd() {
@@ -96,7 +100,8 @@ public class ContestTest {
     }
 
     /**
-     * Test of getParticipants method, of class Contest.
+     * Test of getParticipants method, of class Contest
+     * PR-UN-015.
      */
     @Test
     public void testGetParticipants() {
@@ -115,6 +120,7 @@ public class ContestTest {
 
     /**
      * Test of setParticipants method, of class Contest.
+     * PR-UN-016
      */
     @Test
     public void testSetParticipants() {
@@ -130,6 +136,7 @@ public class ContestTest {
 
     /**
      * Test of getSentences method, of class Contest.
+     * PR-UN-017
      */
     @Test
     public void testGetSentences() {
@@ -144,6 +151,7 @@ public class ContestTest {
 
     /**
      * Test of setSentences method, of class Contest.
+     * PR-UN-018
      */
     @Test
     public void testSetSentences() {
@@ -156,6 +164,7 @@ public class ContestTest {
 
     /**
      * Test of getTitle method, of class Contest.
+     * PR-UN-019
      */
     @Test
     public void testGetTitle() {
@@ -169,6 +178,7 @@ public class ContestTest {
 
     /**
      * Test of setTitle method, of class Contest.
+     * PR-UN-020
      */
     @Test
     public void testSetTitle() {

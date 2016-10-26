@@ -1,4 +1,6 @@
 
+*GrupoDifusionTest.java*
+
 (a)PR-UN-001
 (b) No es individual. Primero se añaden los usuarios, pero luego con un getListaUsuariosGroup().size() se comprueban que efectivamente los ha añadido con éxito.
 (c) testAddUsuarioGrupoDifusion()
@@ -78,3 +80,85 @@
 (e) Mensaje.
 (f) Devuelve la inbox con ese mensaje.
 (g) Se inicializa grupo de difusión y mensaje.
+
+*ContestTest.java*
+
+(a)PR-UN-011
+(b) Es individual. Establecemos una fecha y la recuperamos.
+(c) testGetStart()
+(d) Este test comprueba que devuelve correctamente la fecha de inicio del concurso.
+(e) Nada.
+(f) Devuelve la fecha de inicio.
+(g) Se inicializa el concurso.
+
+(a)PR-UN-012
+(b) Es individual.
+(c) testSetStart()
+(d) Este test cambia o establece la fecha de inicio del concurso.
+(e) Calendar con la fecha de inicio.
+(f) Comprueba que coinciden ambas fechas de inicio.
+(g) Se inicializa concurso.
+
+(a)PR-UN-013
+(b) Es individual.
+(c) testGetEnd() 
+(d) Este test comprueba cuando finaliza el concurso.
+(e) Nada.
+(f) Devuelve la fecha de fin.
+(g) Se inicializa el concurso.
+
+(a)PR-UN-014
+(b) Es individual.
+(c) testSetEnd() 
+(d) Este test establece la fecha de fin del concurso.
+(e) Concurso.
+(f) Añade o cambia la fecha de finalización.
+(g) Se inicializa el concurso.
+
+(a)PR-UN-015
+(b) Es colectivo. Primero añade participantes a un array y luego comprueba los que hay.
+(c) testGetParticipants()
+(d) Este test devuelve el número de participantes de un determinado concurso.
+(e) Nada.
+(f) Devuelve los participantes.
+(g) Se inicializan los participantes y el concurso.
+
+(a)PR-UN-016
+(b) Es colectivo porque se añaden participantes y luego se comprueba que están en el concurso.
+(c) testSetParticipants()
+(d) Este test añade participantes al concurso con éxito.
+(e) Participantes.
+(f) Añade o cambia participantes.
+(g) Se inicializa participante y concurso.
+
+(a)PR-UN-017
+(b) Es individual.
+(c) testGetSentences()
+(d) Este test devuelve las sentencias de los usuarios.
+(e) Sentencias.
+(f) Devuelve las sentencias que ha escrito el usuario.
+(g) Se inicializa concurso.
+
+(a)PR-UN-018
+(b) Es individual.
+(c) testSetSentences()
+(d) Este test comprueba que se añaden las sentencias con éxito.
+(e) Sentencia.
+(f) Comprobación de añadido, false o true.
+(g) Se inicializa sentencia y concurso.
+
+(a)PR-UN-019
+(b) Es individual.
+(c) testGetTitle().
+(d) Este test simplemente devuelve el título del concurso.
+(e) Nada.
+(f) Devuelve el título.
+(g) Se inicializa el concurso.
+
+(a)PR-UN-020
+(b) Es colectivo, porque primero establece el título y luego lo devuelve para comprobar que ha cambiado.
+(c) testSetTitle()
+(d) Este test añade un título a un determinado concurso. Sirve para cambiarlo.
+(e) Título.
+(f) Añadimos al concurso un título nuevo.
+(g) Se inicializa el concurso.
