@@ -1,9 +1,13 @@
-package ER1301.joinMe.model;
+package ER1301.joinMe.test.model;
 
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
+
+import ER1301.joinMe.model.GrupoDifusion;
+import ER1301.joinMe.model.Mensaje;
+
 import static org.junit.Assert.*;
 
 /**

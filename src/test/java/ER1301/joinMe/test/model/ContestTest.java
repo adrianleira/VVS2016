@@ -3,12 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ER1301.joinMe.model;
+package ER1301.joinMe.test.model;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 import org.junit.Before;
 import org.junit.Test;
+
+import ER1301.joinMe.model.Contest;
+import ER1301.joinMe.model.Sentence;
+
 import static org.junit.Assert.*;
 
 /**
