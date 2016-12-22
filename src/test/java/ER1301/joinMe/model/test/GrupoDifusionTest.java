@@ -1,4 +1,4 @@
-package ER1301.joinMe.test;
+package ER1301.joinMe.model.test;
 
 import java.util.ArrayList;
 import java.util.List;
