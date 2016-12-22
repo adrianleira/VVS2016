@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ER1301.joinMe.test.model;
+package ER1301.joinMe.test;
 
 import java.util.ArrayList;
 import java.util.Calendar;
