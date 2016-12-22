@@ -46,10 +46,10 @@
 						<mutator>ALL</mutator>
 					</mutators>
 					<targetClasses>
-						<param>ER1301.joinMe.model.*</param>
+						<param>ER1301.joinMe.*</param>
 					</targetClasses>
 					<targetTests>
-						<param>ER1301.joinMe.test.*</param>
+						<param>ER1301.joinMe.*</param>
 					</targetTests>
 				</configuration>
 			</plugin>
